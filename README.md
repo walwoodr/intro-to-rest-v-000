@@ -86,8 +86,8 @@ access our resources.
 Armed with an understanding of which verbs are for which actions, here is what our newsletter application's routes might look like.
 
 ```js
-GET      /newsletters 				     # Show all newsletters
-POST     /newsletters          	 	 # Create a new newsletter
+GET      /newsletters 			# Show all newsletters
+POST     /newsletters          	 # Create a new newsletter
 GET      /newsletters/new          # Render the form for creating a new newsletter
 GET      /newsletters/:id/edit 	   # Render the form for editing a newsletter
 GET      /newsletters/:id      	   # Show a specific newsletter
